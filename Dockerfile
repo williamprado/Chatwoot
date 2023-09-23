@@ -1,7 +1,7 @@
 # syntax = edrevo/dockerfile-plus
 
-INCLUDE+ includes/Dockerfile.version
+INCLUDE+ imports/Dockerfile.version
 
 FROM chatwoot/chatwoot:v${CW_VERSION}-ce
 
-INCLUDE+ includes/Dockerfile.base
+INCLUDE+ imports/Dockerfile.base
